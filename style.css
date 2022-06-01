@@ -25,7 +25,9 @@ a {
 }
 
 .hero {
-  background-color: aquamarine;
+  background-color: #1F2937;
+  color: white;
+  padding: 12px 50px 100px;
 }
 
 .hero-content {
@@ -37,9 +39,29 @@ a {
   height: auto;
 }
 
+.hero-info h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  margin-bottom: 0;
+}
+
+.hero-info p {
+  margin: 0;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
 .links {
   display: flex;
   gap: 12px;
+}
+
+.links a{
+  color: white;
 }
 
 .card {
