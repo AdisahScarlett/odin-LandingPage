@@ -11,6 +11,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 a {
@@ -32,10 +33,11 @@ a {
 
 .hero-content {
   display: flex;
+  gap: 25px;
 }
 
 .hero-content img {
-  max-width: 200px;
+  width: 50%;
   height: auto;
 }
 
@@ -61,17 +63,20 @@ a {
 }
 
 .links a{
-  color: white;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .card {
   width: 250px;
   height: 250px;
-  border: 1px solid red;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .cards {
   display: flex;
+  gap: 2rem;
 }
 
 .cta {
@@ -81,10 +86,55 @@ a {
   align-items: center;
 }
 
-.btn {
-  padding: 8px 24px;
-  border: 1px solid red;
+.cta-section {
+  padding: 5rem;
 }
+
+.btn {
+  display: inline-block;
+  padding: 8px 24px;
+  border-radius: 5px;
+}
+
+.large-quote {
+  padding: 3rem;
+}
+
+.quote-name {
+  text-align: right;
+  font-weight: bold;
+}
+
+.hero-cta {
+  margin-top: 15px;
+  background-color: #3882F6;
+  color: white;
+}
+
+.cta-section {
+  display: flex;
+  justify-content: center;
+}
+
+.cta {
+  display: flex;
+  color: white;
+  background-color: #3882F6;
+  padding: 30px 50px;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+}
+
+.cta-btn {
+  border: 2px solid white;
+  background-color: #3882F6;
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
 
 .footer {
   display: flex;
@@ -96,4 +146,20 @@ a {
 
 .footer p {
   color: white;
+}
+
+.card > img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1F2937;
 }
